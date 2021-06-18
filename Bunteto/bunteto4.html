@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+ <script src="handlebars-v4.7.7.js"></script>
+ <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+
+<div class="fejlec"><p class="cim">Büntető.com</p><p class="alcim">Profil kitötlése</p></div>
+
+<div class="szovegdoboz">
+    
+   
+    <div  class="gombdiv2">
+
+
+    
+    </div>
+
+    <div class="doboz2"><p class="d2txt">Legfrissebb Cikk:</p></div>
+
+    <div id="quoteData" class="reklam">
+    
+
+  
+
+    
+</div>
+<p class="bye1">Üdvözlettel:</p>
+<p class="bye2">A Büntető.com csapata</p>
+</div>
+<script id="quote-template" type="text/x-handlebars-template">
+
+    
+    <p class="udv">Kedves {{nev}}!</p>
+    
+    <div class="doboz">
+        <p class="cikkreklam">Töltsd ki a profil adataidat, hogy mindig értesülj arról,
+            ami igazán érdekel.</p>
+        <div class="gombkozep"><button class="gomb2"><p class="gombtxt">Profil</p></button></div>
+    </div>
+    
+
+<div class="kep">
+<a href="{{link}}">
+    <img src="{{kep}}" width=802 height=250>
+
+</a>
+</div>
+<div class="cikk">
+    <a href="{{link}}">
+<img src="{{cikk}}" width=802 height=450></a>
+<p class="cikkcim">{{cikkcim}}</p>
+<p class="cikktxt">{{cikktxt}}</p>
+
+
+<div class="fogadas">
+    <br>
+    <img class="fogad" src="{{fogadas}}" width=781 height=450>
+    <div class="gdiv"><button class="gomb3">Tedd meg a fogadásodat</button></div>
+
+</div>
+
+
+</div>
+</script>
+
+
+<script type="text/javascript">
+    var quoteInfo = document.getElementById("quote-template").innerHTML;
+    
+    var template = Handlebars.compile(quoteInfo);
+   
+    var quoteData = template({
+        nev: "Ferenc",
+        kep: "cocacola.jpg",
+        link: "https://www.coca-cola.hu",
+        cikk: "soccer.jpg",
+        cikktxt:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis nulla dui, vitae sagittis sapien iaculis ac. Praesent vel nibh commodo, blandit tortor nec, consectetur sem.",
+        cikkcim:"Cím",
+        fogadas:"fogadas.jpg"
+
+    })
+   
+     document.getElementById('quoteData').innerHTML += quoteData;
+</script>
+
+
+</body>
+</html>

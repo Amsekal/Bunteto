@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+ <script src="handlebars-v4.7.7.js"></script>
+ <link rel="stylesheet" href="style8.css">
+</head>
+ 
+<body>
+  <div class="fejlec"><p class="cim">Büntető.com</p><p class="alcim">Fiók törlése</p></div>
+
+  <div class="szovegdoboz">
+    
+    
+    
+    <p class="txt2">Még 30 napon keresztül tároljuk a profiladataidat, 
+      ha addig nem állítod vissza a profilod,
+      minden adatod véglegesen törlésre kerül rendszerünkből.  </p>
+    <div class="gombdiv"><button class="gomb"><p class="txtg">Azonnali visszaállíátás</p></button></div>
+  </div>
+   
+  <div class="elkoszon">
+  
+  <p class="bye1">Üdvözlettel:</p>
+  <p class="bye2">A Büntető.com csapata</p>
+  </div>
+  
+
+
+
+<div id="quoteData"></div>
+ 
+<script id="quote-template" type="text/x-handlebars-template">
+
+  <p class="udv">Kedves {{nev}}</p>
+  <p class="txt1">A fiókodat töröltük {{idopont}} órakor.</p>
+  
+  <p class="reklam">
+  <a href="{{link}}">
+  <img src="{{kep}}" width=802 height=250></p>
+  </a>
+</script>
+
+<script type="text/javascript">
+ var quoteInfo = document.getElementById("quote-template").innerHTML;
+ 
+ var template = Handlebars.compile(quoteInfo);
+
+ var quoteData = template({
+    kep: "cocacola.jpg",
+    link: "https://www.coca-cola.hu",
+    nev:"Ferenc",
+    idopont:"2021. május 4. napján 16:46"})
+
+  document.getElementById('quoteData').innerHTML += quoteData;
+</script>
+ 
+
+</body>
+</html>

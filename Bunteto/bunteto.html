@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+ 
+ <script src="handlebars-v4.7.7.js"></script>
+ <link rel="stylesheet" href="style1.css">
+</head>
+ 
+<body>
+  <div class="fejlec"><p class="cim">Büntető.com</p><p class="alcim">E-mail verifikáció</p></div>
+
+  <div class="szovegdoboz">
+    
+    <p class="udv">Helló.</p>
+    <p class="txt1">Ezt az üzenetet azért kaptad, mert felregisztráltál a Büntető.com oldalra.</p>
+    <p class="txt2">Az alábbi gombra kattintva erősítheted meg az e-mail címed. </p>
+    <div class="gombdiv"><button class="gomb"><p class="txtg">Megerősítés</p></button></div>
+  </div>
+   
+  <div class="elkoszon">
+  
+  <p class="bye1">Üdvözlettel:</p>
+  <p class="bye2">A Büntető.com csapata</p>
+  </div>
+  
+
+
+
+<div id="quoteData" class="reklam"></div>
+ 
+<script id="quote-template" type="text/x-handlebars-template">
+  <a href="{{link}}">
+  <img src="{{kep}}" width=802 height=250>
+  </a>
+</script>
+
+<script type="text/javascript">
+ var quoteInfo = document.getElementById("quote-template").innerHTML;
+ 
+ var template = Handlebars.compile(quoteInfo);
+
+ var quoteData = template({
+    kep: "cocacola.jpg",
+    link: "https://www.coca-cola.hu"})
+
+  document.getElementById('quoteData').innerHTML += quoteData;
+</script>
+ 
+
+</body>
+</html>

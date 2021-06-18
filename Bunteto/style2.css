@@ -1,0 +1,458 @@
+body {
+    background-color: whitesmoke;
+
+  }
+
+.fejlec{
+    position: absolute;
+    top:0%;
+    Width :930px;
+Height: 80px;
+background-color: #006633;
+
+
+margin:auto ;
+}
+.szovegdoboz{
+    position: absolute;
+    top: 8.53%;
+
+    Width :930px;
+    Height: 3249px;
+    
+    
+    background: white;
+    }
+
+
+.cim{
+    color:white;
+    position: absolute;
+    left: 2%;
+    right: 68.17%;
+    top:-37%;
+    bottom: 24.48%;
+    font-size: 48px;
+}
+
+.alcim{
+    color:white;
+    position: absolute;
+    left: 73.87%;
+    right: 3.44%;
+    top: 7%;
+    bottom: 30%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+
+    
+    text-align: center;
+
+}
+
+.szovegdoboz{
+    position: absolute;
+    top: 8.53%;
+
+    Width :930px;
+    Height: 3249px;
+    
+    
+    background: white;
+    }
+
+.udv{
+    position: absolute;
+    
+    left: 64px;
+    top: 115px;
+    bottom: 95.4%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    
+    
+    /* SötétZöld */
+    
+    color: #006633;
+}
+.txt1{
+    position: absolute;
+    left: 64px;
+
+top: 185px;
+bottom: 90.84%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 52px;
+text-align: center;
+
+color: #000000;
+height: 70px;
+width: 802px;
+}
+
+.txt2{
+
+
+position: absolute;
+left: 3.55%;
+right: 3.33%;
+top: 275px;
+bottom: 92.32%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+height: 70px;
+width: 802px;
+color: #000000;
+
+}
+.txt3{
+    
+position: absolute;
+left: 8.28%;
+right: 7.96%;
+top: 9.9%;
+bottom: 87.36%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+text-align: center;
+
+/* Fehér */
+
+color: #FFFFFF;
+}
+
+
+.doboz{
+    position: absolute;
+left: 75px;
+
+top: 400px;
+bottom: 73.85%;
+
+/* SötétZöld */
+
+background: #006633;
+border-radius: 8px;
+
+height: 570px;
+width: 802px;
+}
+
+.doboz2{
+    position: absolute;
+    left: 75px;
+    
+    top: 1500px;
+    bottom: 73.85%;
+    
+    /* SötétZöld */
+    
+    background: #006633;
+    border-radius: 8px;
+    
+    height: 80px;
+    width: 802px;
+}
+
+.gombtxt{
+    position: static;
+left: 32px;
+right: 32px;
+top: 16px;
+bottom: 16px;
+
+font-family: Work Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+/* Fehér */
+
+color: #FFFFFF;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+
+}
+.gomb{
+    
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 16px 32px;
+
+position: static;
+left: 32px;
+right: 32px;
+top: 16px;
+bottom: 16px;
+
+/* Zöld */
+
+background: #55AE3A;
+/* Fehér */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Elevation / WHITE / 01 */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 2px #B4B4BB, 0px 2px 4px #D2D2D6;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+.gombdiv{
+    margin-top: 50%;
+    margin-left: 37%;
+}
+.kep{
+   
+    position: absolute;
+    width: 801px;
+    height: 270px;
+    left: 75px;
+    top: 1200px;
+    
+    
+}
+.gombdiv2{
+    margin-top:100%;
+    margin-left: 38%;
+}
+
+.gomb2{
+    /* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 16px 32px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Zöld */
+
+background: #55AE3A;
+/* Fehér */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Elevation / WHITE / 01 */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 2px #B4B4BB, 0px 2px 4px #D2D2D6;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.d2txt{
+    
+position: absolute;
+left: 6.98%;
+right: 41.65%;
+top: -25%;
+bottom: 26.25%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 39px;
+line-height: 46px;
+text-align: center;
+
+/* Fehér */
+
+color: #FFFFFF;
+
+}
+
+.cikk{
+    position: absolute;
+    width: 801px;
+    height: 405px;
+    left: 75px;
+    top: 1600px;
+    background: #B1DDC4;
+
+    height: 600px;
+    width: 802px;
+}
+.cikktxt{
+    position: absolute;
+left: 1%;
+right: 1%;
+top: 80%;
+bottom: 13.57%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 126%;
+/* or 28px */
+
+text-align: justify;
+
+color: #000000;
+
+}
+.cikkcim{
+    
+position: absolute;
+left: 11.47%;
+right: -1.12%;
+top: 70.35%;
+bottom: 26.37%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.fogadas{
+    position: absolute;
+    width: 801px;
+    height: 405px;
+    left: 0px;
+    top: 650px;
+    background: #006633;
+
+    height: 480px;
+    width: 802px;
+    text-align: center;
+}
+
+
+.gomb3{
+    display: flex;
+flex-direction: row;
+align-items: flex-end;
+padding: 16px 32px;
+
+position: static;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* Zöld */
+
+background: #55AE3A;
+/* Fehér */
+
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+/* Elevation / WHITE / 01 */
+
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 2px #B4B4BB, 0px 2px 4px #D2D2D6;
+border-radius: 8px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.gdiv{
+    margin-top:0%;
+    margin-left: 38%;
+}
+
+.bye1{
+
+    position: absolute;
+left: 0.79%;
+right: 88.75%;
+top: 305%;
+bottom: 50.94%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.bye2{
+
+
+position: absolute;
+left: 6.72%;
+right: 82%;
+top: 310.06%;
+bottom: 1.89%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 26px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
